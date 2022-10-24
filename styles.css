@@ -1,4 +1,13 @@
-* {
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit;
+}
+
+*{
+    
     /* color: green; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -15,6 +24,26 @@ p{
 
 li {
     color: hotpink;
+}
+
+.box{
+background-color: whitesmoke;
+/* font-weight: 400;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px; */
+padding: 10px;
+/* border-color: black;
+border-style: solid;
+border-width: 3px; */
+border:solid 3px black;
+
+/*margin-top: 10px;
+margin-right:20px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin: 10px 20px 10px 20px ;*/
+margin: 10px 20px 
 }
 
 footer {
