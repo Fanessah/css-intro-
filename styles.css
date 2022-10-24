@@ -1,0 +1,37 @@
+* {
+    /* color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+p{
+    color: navy;
+
+}
+
+.my-ps{
+    background-color: peru;
+}
+
+li {
+    color: hotpink;
+}
+
+footer {
+    background-color: tan ;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+footer> h3 {
+    background-color: #ff216f;
+}
+
+#contact{
+    background-color: bisque;
+}
+.mywidth{
+    width: 100px;
+}
