@@ -48,6 +48,7 @@ margin: 10px 20px
 
 footer {
     background-color: tan ;
+    border-radius: 30px;
 }
 
 body {
@@ -58,6 +59,9 @@ footer> h3 {
     background-color: #ff216f;
 }
 
+footer > ul > li {
+    color: blueviolet;
+} 
 #contact{
     background-color: bisque;
 }
